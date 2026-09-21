@@ -1,1 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Jessy ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<section id="intro" class="page active">
+
+    <div class="envelope">💌</div>
+
+    <h1>Hey, Jessy... ❤️</h1>
+
+    <p>I made a little something special for you.</p>
+
+    <button onclick="openGift()">
+        Open Your Surprise ✨
+    </button>
+
+</section>
+
+
+<section id="birthday" class="page">
+
+    <div class="balloons">
+        🎈 🎈 🎈
+    </div>
+
+    <h1>Happy Birthday! 🎂</h1>
+
+    <h2>My Favourite Person ❤️</h2>
+
+    <p>
+        September 24 isn't just another day...<br>
+        It's the day someone special came into this world. ✨
+    </p>
+
+    <button onclick="showMessage()">
+        There's Something I Want To Say 💌
+    </button>
+
+</section>
+
+
+<section id="message" class="page">
+
+    <div class="card">
+
+        <h2>💌 A Little Letter</h2>
+
+        <p id="typing"></p>
+
+        <button onclick="showMemories()">
+            Our Memories 📸
+        </button>
+
+    </div>
+
+</section>
+
+
+<section id="memories" class="page">
+
+    <h1>📸 Little Memories</h1>
+
+    <p>
+        Some moments deserve to stay forever. ❤️
+    </p>
+
+    <div class="gallery">
+
+        <div class="photoCard">
+            <img src="photo1.jpg" alt="Memory 1">
+            <p>One beautiful memory ✨</p>
+        </div>
+
+        <div class="photoCard">
+            <img src="photo2.jpg" alt="Memory 2">
+            <p>A moment worth remembering ❤️</p>
+        </div>
+
+        <div class="photoCard">
+            <img src="photo3.jpg" alt="Memory 3">
+            <p>A memory I'll always keep 💕</p>
+        </div>
+
+        <div class="photoCard">
+            <img src="photo4.jpg" alt="Memory 4">
+            <p>Another little moment ❤️</p>
+        </div>
+
+        <div class="photoCard">
+            <img src="photo5.jpg" alt="Memory 5">
+            <p>Another beautiful memory ✨</p>
+        </div>
+
+        <div class="photoCard">
+            <img src="photo6.jpg" alt="Memory 6">
+            <p>And one more for the memories 💗</p>
+        </div>
+
+    </div>
+
+    <button onclick="showFinal()">
+        One Last Thing 💗
+    </button>
+
+</section>
+
+
+<section id="final" class="page">
+
+    <div class="finalCard">
+
+        <div class="heart">
+            ❤️
+        </div>
+
+        <h1>For You...</h1>
+
+        <p>
+            No matter how much life changes,
+            <br>
+            I hope you always keep smiling.
+        </p>
+
+        <p>
+            Thank you for being a beautiful part of my life. ❤️
+        </p>
+
+        <h2>
+            Let's be there for each other till the end. 🤍
+        </h2>
+
+        <h1>
+            Happy Birthday! 🎂✨
+        </h1>
+
+        <p class="small">
+            — From someone who will always care about you ❤️
+        </p>
+
+        <button onclick="celebrate()">
+            Make a Wish 🎆
+        </button>
+
+    </div>
+
+</section>
+
+
+<audio id="music" loop>
+    <source src="birthday.mp3" type="audio/mpeg">
+</audio>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
